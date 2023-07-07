@@ -1,0 +1,9 @@
+.list {
+    margin-top: 1rem;
+    margin-left: 5rem;
+    text-align: left;
+}
+.list li {
+    display: block;
+    margin: 0.3rem;
+}
