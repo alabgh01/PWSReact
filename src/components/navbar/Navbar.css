@@ -1,0 +1,9 @@
+.navbar-ul li {
+    display: inline-block;
+    margin: 1rem 3rem;
+}
+ul.navbar-ul {
+    padding: 1rem;
+    background: aliceblue;
+    margin: 0;
+}
