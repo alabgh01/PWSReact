@@ -2,15 +2,14 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './Navbar.css'
 
-
 const Navbar = () => {
   return (
     <div className='navbar container'>
       <nav>
         <ul className='navbar-ul'>
-          <li>
+          {/* <li>
             <a href='#intro'>Intro</a>
-          </li>
+          </li> */}
           <li>
             <a href='#skills'>Skills</a>
           </li>

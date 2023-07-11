@@ -1,5 +1,62 @@
 .intro {
-    min-height: 70vh;
-    padding: 1rem;
-    background: #81674678;
+  display: flex;
+  min-height: 70vh;
+  padding: 1rem;
+  /* background: #81674678; */
+}
+.me-div,
+.me-img {
+  margin: 2% 5%;
+  width: 40%;
+  max-width: 40%;
+  border-radius: 1%;
+}
+#me-title {
+  display: block;
+  margin-bottom: 2rem;
+}
+p.icons {
+  display: inline;
+  margin: 4rem 2rem;
+}
+svg.icons {
+  width: 2rem;
+  margin: 1rem;
+}
+p.me-p {
+  margin-top: 25%;
+  font-size: 1.2rem;
+}
+.wave {
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }

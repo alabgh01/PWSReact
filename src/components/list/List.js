@@ -1,18 +1,15 @@
 import React from 'react'
-import "./List.css"
+import './List.css'
 
-const List = ({title, content}) => {
+const List = ({ title, content }) => {
   return (
     <div className='list'>
-        <p>{title}</p>
-        <ul>
-        {content.map((c)=>(
-            <li key={c}>
-              {c}
-               </li>
+      <p>{title}</p>
+      <ul>
+        {content.map((c) => (
+          <li key={c}>{c}</li>
         ))}
-        </ul>
-
+      </ul>
     </div>
   )
 }

@@ -6,7 +6,7 @@ import { skills } from '../../data/skills.js'
 const Skills = () => {
   return (
     <div className='container'>
-      <p>Skills</p>
+      {/* <p>Skills</p> */}
       <div className='skills' id='skills'>
         {skills.map((skillSet) => (
           <List
