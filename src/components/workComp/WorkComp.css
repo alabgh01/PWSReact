@@ -1,4 +1,4 @@
-.list {
+.workComp {
   margin: 1rem;
   text-align: left;
   background: #daf0ff;
@@ -6,11 +6,20 @@
   padding: 0 1rem;
   padding-bottom: 1rem;
 }
-.list p {
+p.job-info {
+  margin-left: 1rem;
   font-weight: 500;
-  font-size: 1.2rem;
 }
-.list li {
+p.inline {
+  display: inline;
+}
+p.job-comments {
+  margin: 1rem;
+  background: #acddff;
+  padding: 0.5rem;
+  border-radius: 1%;
+}
+.workComp li {
   margin: 1rem 0;
   list-style: circle;
 }
