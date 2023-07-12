@@ -1,0 +1,25 @@
+.workComp {
+  margin: 1rem;
+  text-align: left;
+  background: #daf0ff;
+  border-radius: 0.3rem;
+  padding: 0 1rem;
+  padding-bottom: 1rem;
+}
+p.job-info {
+  margin-left: 1rem;
+  font-weight: 500;
+}
+p.inline {
+  display: inline;
+}
+p.job-comments {
+  margin: 1rem;
+  background: #acddff;
+  padding: 0.5rem;
+  border-radius: 1%;
+}
+.workComp li {
+  margin: 1rem 0;
+  list-style: circle;
+}

@@ -20,9 +20,11 @@ const Footer = () => {
             Gmail
           </a>
         </li>
-        {/* <li>
-          <a href='#' target='_blank'>YouTube</a>
-          </li> */}
+        <li>
+          <a href='#' target='_blank'>
+            YouTube
+          </a>
+        </li>
         <li>
           <a href='#' target='_blank'>
             Facebook
