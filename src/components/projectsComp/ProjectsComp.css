@@ -1,7 +1,7 @@
 .projectsComp {
   margin: 1rem;
   text-align: left;
-  background: #daf0ff;
+  background: var(--color-latte-dark);
   border-radius: 0.3rem;
   padding: 0 1rem;
   padding-bottom: 1rem;
@@ -15,7 +15,7 @@ p.inline {
 }
 p.project-comments {
   margin: 1rem;
-  background: #acddff;
+  background: var(--color-chai);
   padding: 0.5rem;
   border-radius: 1%;
 }

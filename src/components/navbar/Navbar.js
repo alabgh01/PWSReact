@@ -1,10 +1,13 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import ghazalsCafeLogo from '../../assets/ghazalsCafeLogo.png'
 import './Navbar.css'
 
 const Navbar = () => {
   return (
     <div className='navbar container'>
+      <div className='logoImg'>
+        <img src={ghazalsCafeLogo} alt='' />
+      </div>
       <nav>
         <ul className='navbar-ul'>
           {/* <li>

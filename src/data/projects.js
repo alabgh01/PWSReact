@@ -49,7 +49,7 @@ export const projects = [
     link: 'https://github.com/alabgh01/cpp_PassPhrase',
     type: 'Academic',
     content: [
-      'Programmed an algorithm to connect to connect to file containig more than 500000 words',
+      'Programmed an algorithm connect to file containig more than 500000 words',
       'Analyized the programm speed in choosing words and worked on enhancing the speed',
       'Designed the program to form passphrases and present them in colored presentable output',
     ],

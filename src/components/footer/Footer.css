@@ -1,9 +1,8 @@
 .footer-ul li {
-    display: inline-block;
-    margin: 1rem 2rem;
+  display: inline-block;
+  margin: 1rem 2rem;
 }
 ul.footer-ul {
-    padding: 1rem;
-    background: aliceblue;
-    margin: 0;
+  padding: 1rem;
+  margin: 0;
 }

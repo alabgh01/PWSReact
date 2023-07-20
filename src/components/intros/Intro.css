@@ -10,6 +10,7 @@
   width: 40%;
   max-width: 40%;
   max-height: 165vh;
+  min-height: 35rem;
   border-radius: 1%;
 }
 #me-title {

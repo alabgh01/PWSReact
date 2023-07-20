@@ -1,7 +1,7 @@
 .list {
   margin: 1rem;
   text-align: left;
-  background: #daf0ff;
+  background: var(--color-latte-dark);
   border-radius: 0.3rem;
   padding: 0 1rem;
   padding-bottom: 1rem;
