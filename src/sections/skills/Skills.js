@@ -1,13 +1,14 @@
 import React from 'react'
 import './Skills.css'
-import List from '../list/List'
+import List from '../../components/list/List'
 import { skills } from '../../data/skills.js'
+import { useNav } from '../../hooks/useNav'
 
 const Skills = () => {
+  const skillsRef = useNav('Skills')
   return (
-    <div className='container'>
-      {/* <p>Skills</p> */}
-      <div className='skills' id='skills'>
+    <section className='container'>
+      <div className='skills' id='skillsSection' ref={skillsRef}>
         {skills.map((skillSet) => (
           <List
             key={skillSet.id}
@@ -16,7 +17,7 @@ const Skills = () => {
           />
         ))}
       </div>
-    </div>
+    </section>
   )
 }
 

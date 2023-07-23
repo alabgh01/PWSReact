@@ -1,17 +1,23 @@
 .intro {
   display: flex;
+  justify-content: center;
+  align-items: center;
   min-height: 70vh;
   padding: 1rem;
-  /* background: #81674678; */
+}
+img.me-img {
+  border-radius: 50%;
+  width: 27%;
+}
+.me-div {
+  padding: 1rem;
 }
 .me-div,
 .me-img {
-  margin: 2% 5%;
-  width: 40%;
-  max-width: 40%;
-  max-height: 165vh;
-  min-height: 35rem;
-  border-radius: 1%;
+  margin: 2% 4%;
+  background: var(--color-latte-light);
+  box-shadow: 0px 5px 10px black;
+  animation: fade-in 3s ease-in 1;
 }
 #me-title {
   display: block;
@@ -26,15 +32,18 @@ svg.icons {
   margin: 1rem;
 }
 p.me-p {
-  margin-top: 25%;
   font-size: 1.2rem;
 }
 .wave {
-  animation-name: wave-animation;
-  animation-duration: 2.5s;
-  animation-iteration-count: infinite;
+  animation: wave-animation 3s ease 1s infinite;
   transform-origin: 70% 70%;
   display: inline-block;
+}
+.arr {
+  animation: bounce 5s ease 1s infinite;
+}
+.arr:hover {
+  opacity: 0.5;
 }
 @keyframes wave-animation {
   0% {
@@ -60,5 +69,24 @@ p.me-p {
   }
   100% {
     transform: rotate(0deg);
+  }
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }

@@ -3,7 +3,7 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-    <div className='footer container'>
+    <footer className='footer container'>
       <ul className='footer-ul'>
         <li>
           <a href='#' target='_blank'>
@@ -36,7 +36,7 @@ const Footer = () => {
           </a>
         </li>
       </ul>
-    </div>
+    </footer>
   )
 }
 

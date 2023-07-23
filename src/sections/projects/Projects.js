@@ -1,12 +1,14 @@
 import React from 'react'
 import { projects } from '../../data/projects'
 import './Projects.css'
-import ProjectsComp from '../projectsComp/ProjectsComp'
+import ProjectsComp from '../../components/projectsComp/ProjectsComp'
+import { useNav } from '../../hooks/useNav'
 
 const Projects = () => {
+  const projectsRef = useNav('Projects')
   return (
-    <div className='container'>
-      <div className='projects' id='projects'>
+    <section className='container'>
+      <div className='projects' id='projectsSection' ref={projectsRef}>
         {projects.map((projectSet) => (
           <ProjectsComp
             key={projectSet.id}
@@ -18,7 +20,7 @@ const Projects = () => {
           />
         ))}
       </div>
-    </div>
+    </section>
   )
 }
 
