@@ -1,30 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@300&display=swap');
 
 :root {
-  --color-latte-light: #f3eeea;
+  --color-white-69: #ffffff69;
+  --color-latte-light: #ffffff;
   --color-sky-light: #f0f8ff;
   --coloe-sky-dark: #daf0ff;
-  --color-latte-dark: #dccec6;
-  --color-coffee: #3f2323;
-  --color-coffee-light: #a88a74;
-  --color-chai: #9a827a;
+  --color-latte-dark: #7a7a7a;
+  --color-coffee: #000000;
+  --color-coffee-light: #313131;
+  --color-chai: #4d4d4d;
+  --font-family: 'Ysabeau Infant', sans-serif;
+  --font-weight: 600;
+  --font-size: 1.1rem;
+}
+html {
+  font-size: 16px;
+  /* font-weight: var(--font-weight); */
 }
 body {
   margin: 0;
-  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url('assets/coffeeBack2.jpeg');
-  color: var(--color-coffee);
-  font-family: 'Ysabeau Infant', sans-serif;
+  background-image: url('assets/bw2.jpeg');
+  background-size: contain;
+  font-family: var(--font-family);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: var(--font-family);
 }
+/* section {
+  display: flex;
+  flex-direction: column;
+} */
 a:hover {
   color: var(--color-coffee-light);
 }
@@ -32,12 +40,8 @@ a:link,
 a:active,
 a:visited {
   text-decoration: none;
-  font-size: 1.3rem;
-  font-weight: 600;
   color: var(--color-coffee);
 }
-/* .container { */
-/* background: var(--color-latte-light); */
-/* margin: 1rem; */
-/* background-image: url('assets/coffeeBack.jpeg'); */
-/* } */
+ul {
+  list-style: none;
+}
