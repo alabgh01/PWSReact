@@ -4,6 +4,20 @@
   padding: 1rem;
   background: var(--color-white-69);
 }
+div#navbarContainer {
+  position: fixed;
+  height: 5rem;
+  width: 100%;
+  padding: 0.5rem 0;
+  background: #ffffff;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 94%;
+  margin: 0 3%;
+}
 .navbar-ul li {
   display: inline-block;
   margin: 1rem 3rem;
@@ -15,11 +29,6 @@ ul.navbar-ul {
 .header .container {
   max-width: 1200px;
   margin: 0 auto;
-}
-.navbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 .navbar img {
   width: 17%;

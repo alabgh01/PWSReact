@@ -10,3 +10,6 @@
   margin: 1rem 0;
   list-style: circle;
 }
+p.skillsTitle {
+  font-weight: 600;
+}

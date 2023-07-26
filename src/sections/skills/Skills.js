@@ -7,8 +7,9 @@ import { useNav } from '../../hooks/useNav'
 const Skills = () => {
   const skillsRef = useNav('Skills')
   return (
-    <section className='container'>
-      <div className='skills' id='skillsSection' ref={skillsRef}>
+    <section className='container' id='skillsSection'>
+      <h1 className='sectionH1'>Skills: Computer and Other</h1>
+      <div className='skills' ref={skillsRef}>
         {skills.map((skillSet) => (
           <List
             key={skillSet.id}

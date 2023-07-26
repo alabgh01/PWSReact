@@ -29,10 +29,6 @@ body {
 code {
   font-family: var(--font-family);
 }
-/* section {
-  display: flex;
-  flex-direction: column;
-} */
 a:hover {
   color: var(--color-coffee-light);
 }
