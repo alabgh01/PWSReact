@@ -1,11 +1,14 @@
+import { Fade } from 'react-reveal'
 import './Intro.css'
-
 import me from '../../assets/bwMe.png'
 import { useNav } from '../../hooks/useNav'
+import { useState } from 'react'
 
 const Intro = () => {
   const homeRef = useNav('Intro')
+  const [leaving, setLeaving] = useState(false)
   const handelClickDown = () => {
+    setLeaving(true)
     document
       .getElementById('skillsSection')
       .scrollIntoView({ behavior: 'smooth' })
@@ -13,7 +16,15 @@ const Intro = () => {
   return (
     <section className='container'>
       <div className='intro' id='introSection' ref={homeRef}>
+        {/* {leaving ? (
+          <Fade>
+            <img className='me-img' src={me} alt='' />
+          </Fade>
+        ) : (
+          <img className='me-img' src={me} alt='' />
+        )} */}
         <img className='me-img' src={me} alt='' />
+
         <div className='arr' onClick={handelClickDown}>
           <a href='#skills'>
             <svg

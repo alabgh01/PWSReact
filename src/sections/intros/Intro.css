@@ -2,8 +2,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 70vh;
+  min-height: 86vh;
   padding: 1rem;
+  padding-top: 4rem;
 }
 img.me-img {
   border-radius: 50%;

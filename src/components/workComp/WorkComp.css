@@ -1,10 +1,37 @@
 .workComp {
-  margin: 1rem;
+  margin: 0rem 6rem;
   text-align: left;
   background: var(--color-latte-light);
   box-shadow: 0px 5px 10px black;
-  padding: 0 1rem;
-  padding-bottom: 1rem;
+  padding: 2rem;
+  width: 36%;
+}
+.workComp.alignRight {
+  margin-left: auto;
+}
+img.workStairs {
+  width: 20%;
+  margin: 2rem auto;
+}
+img.workStairs.alignRight {
+  margin-left: -5rem;
+}
+img.workStairs.alignLeft {
+  margin-right: -25rem;
+}
+.job-info.inline {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.job-info.inline p,
+.job-info.inline span {
+  margin: 0 5px;
+  padding: 0;
+}
+img.calendarImg,
+img.mapImg {
+  width: 1.5rem;
 }
 p.inline {
   display: inline;
@@ -18,4 +45,10 @@ p.job-comments {
 .workComp li {
   margin: 1rem 0;
   list-style: circle;
+}
+.work h3 {
+  margin: 0;
+}
+.workCompContainer {
+  display: flex;
 }

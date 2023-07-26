@@ -7,8 +7,9 @@ import { useNav } from '../../hooks/useNav'
 const Projects = () => {
   const projectsRef = useNav('Projects')
   return (
-    <section className='container'>
-      <div className='projects' id='projectsSection' ref={projectsRef}>
+    <section className='container' id='projectsSection'>
+      <h1 className='sectionH1'>Projects: Academic, Work, and Personal</h1>
+      <div className='projects' ref={projectsRef}>
         {projects.map((projectSet) => (
           <ProjectsComp
             key={projectSet.id}
