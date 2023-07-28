@@ -3,6 +3,7 @@
   width: 100%;
   padding: 1rem;
   background: var(--color-white-69);
+  z-index: 99999;
 }
 div#navbarContainer {
   position: fixed;

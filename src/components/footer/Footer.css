@@ -4,8 +4,19 @@
 }
 ul.footer-ul {
   padding: 1rem;
+  padding-bottom: 0;
   margin: 0;
 }
 .footer {
   background: var(--color-white-69);
+}
+p.copyrights {
+  margin: 0;
+  margin-bottom: 1rem;
+  margin-top: -1rem;
+  font-size: 1.2rem;
+}
+.footer img.socialIcons {
+  width: 2.5rem;
+  margin: 1rem;
 }

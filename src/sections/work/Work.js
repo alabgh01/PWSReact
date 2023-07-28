@@ -13,7 +13,7 @@ const Work = () => {
       <h1 className='sectionH1'>Work Experience, Including Internships</h1>
       <div className='work' ref={workRef}>
         {workExperience.map((workSet) => (
-          <div>
+          <div key={workSet.id}>
             {Number(workSet.id) % 2 === 0 ? (
               <div className='workCompContainer'>
                 <WorkComp
